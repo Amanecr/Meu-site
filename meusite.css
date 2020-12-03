@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+.img-sidebar {
+	text-align: center;
+	top: 50%;
+	transform: 	translateY(40%);
+}
+
+.sidebar {
+	width: 25%;
+	height: 100%;
+	position: fixed;
+	background-color: #23f3a39e;
+}
+
+.sidebar-pos {
+	position: absolute;
+}
+
+.img-sidebar img {
+	width: 80%;
+	max-width: 100%;
+	border-radius: 50%;
+	border: 5px solid #FA8072	 ;
+
+
+}
+
+.menu {
+	
+	margin: 20px 0;
+	text-align: center;
+	position: relative;
+	top: 130px;
+
+}
+
+.menu a{
+	color: #FA8072		;
+	opacity: 1;
+	font-size: 19px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	display: block;
+ }
+
+.menu a.selected {
+	opacity: 1;
+}
+
+.content {
+	position: relative;	
+	left: 25%;
+	width: auto;
+	height: 100%;
+	overflow-y: auto; /* para funcionar ok em dispositivos mobile*/
+	padding: 0 3%;
+	position: fixed;
+	margin-top: 20px;
+	
+	top: -25px;
+}
+
+section.descriçao {
+	position: relative;
+	top: 45%;
+	transform: translateY(-45%);
+}
+
+section.descriçao h2{
+	color: #464646;
+	font-size: 46px;	
+}
+
+section.descriçao h2 > span,
+section.descriçao h3 > span {
+	color: #f98173;
+}
+
+section.descriçao h3 {
+	color:#464646 ;
+	font-size: 26px;
+	margin: 15px 0;
+}
+
+section.descriçao p {
+	color: #464646 ;
+	font-size: 20px;
+	margin-top: 40px;
+}
+
+.icon-social {
+	margin-top: 220px;
+	border-radius: 50px;
+	display: block;
+	
+}
+.icon-social img {
+	width: 40px;
+	height: 40px;
+	margin: 15px 10px 10px 0px;
+}
