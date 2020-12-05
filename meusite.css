@@ -52,8 +52,8 @@ html, body {
 	display: block;
  }
 
-.menu a.selected {
-	opacity: 1;
+.menu a:hover {
+	color: #c100ce;
 }
 
 .content {
